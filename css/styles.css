@@ -1,5 +1,6 @@
 .container{
     font-family: 'Tangerine', serif;
+    background-color: wheat;
 }
 nav {
     display: grid;
