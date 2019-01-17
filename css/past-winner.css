@@ -2,6 +2,6 @@ body{
     background-color: bisque;
     font-family: 'Tangerine', serif;
 }
-h1{
-    display: inline;
+.container{
+    display: block;
 }
