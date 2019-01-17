@@ -1,6 +1,7 @@
 body{
     background-color: rgb(161, 151, 93);
     font-family: 'Tangerine', serif;
+
 }
 jambotron{
     color: wheat;
@@ -22,3 +23,6 @@ ol{
     display: inline-block;
     font-size: 16px;
   }
+ a{
+     font-size:20px;
+ }
