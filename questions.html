@@ -4,24 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/questions.css" type="text/css" rel="stylesheet">
     <title>Questions</title>
 </head>
 <body>
-    <a href="competition.html">Go back</a>
+    <div class="container">
+        <a href="competition.html">Go back</a>
 
-    <h1>Questions</h1>
-    <ol>
-        <li>Why do you think that you are the best candidate for this title?</li>
-        <li>What makes you stand out from the other contestants?</li>
-        <li>What makes you unique?</li>
-        <li>Why should you win this pageant?</li>
-        <li>What goal do you want to have achieved when you are?</li>
-        <li>Tell me more about</li>
-        <li>Who is your role model?</li>
-        <li>What will you do if you win this title?</li>
-        <li>What is your dream job? </li>
-        <li>What has been your biggest failure? </li>
-    </ol>
-    
+      <div class="jumbotron">
+         <h1>Questions</h1><br>
+         <h2>Instructions:</h2>
+         <p> Every contestent must pick one question randomly</p>
+         <p> What You need?</p>
+         <ol>
+             <strong><li><strong>Click onReload button</strong></li></strong>
+             <strong><li><strong>Read a question two time and try to understand it.</strong> </li></strong>
+             <strong><li><strong>Fill your answer in input frame</strong></li></strong>
+             <strong><li><strong>Click on Submit button</strong><span> (you will see if your answer is correct or is incorrect)<span></li></strong>
+             <strong><li><strong>Click on Next button</strong></li></strong>
+         </ol> 
+         
+         <p></p>
+      </div>
+         
+
+         <p id="question">Which country have this lake <text id="name"></text>?</p>
+         <input type="text" id="input"><button onclick="submit()">Submit</button>
+         <p id="answer"></p>
+         <p id="button"></p>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    ,<script src="js/question.js"></script>
 </body>
 </html>
