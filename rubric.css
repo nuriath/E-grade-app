@@ -1,0 +1,31 @@
+ body{
+     font-family: 'Tangerine', serif;
+     text-align:center;
+     margin-top: 70px;
+ }
+
+.active{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+
+}
+*{
+    background-color: wheat;
+}
+#password{
+    margin-top: 30px;
+    padding: 10px;
+
+}
+#email{
+    padding: 10px;
+}
+#missName{
+    padding: 10px;
+}
+#button{
+    padding: 10px;
+    padding: 10px;
+}
