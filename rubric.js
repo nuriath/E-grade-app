@@ -18,6 +18,7 @@ if ($(".m1").click(function(){
     alert("your total is" +totalPoints+);
 }));
 }*/
+
 var mark=[mark1,mark2,mark3,mark4,mark5];
 var mark1 =0;
 var mark2=0;
@@ -27,203 +28,271 @@ var mark5=0;
 var total=0;
 
 
-if($('.m1').on('click', function() {
+if($('.mOne').on('click', function() {
     mark1= 10;
-   $('#points1').text(mark1);
+   $('#pointsOne').text(mark1);
     
 
     total=mark1;
     $('#totalMark').text(total);
        
-    $("#rowOne").removeClass('active');
+  
  
-        $(".m1").addClass('active');
+        $(".mOne").toggleClass('active');
     
  
 
     }) );
     
     
-if( $('.m2').on('click', function() {
+if( $('.mTwo').on('click', function() {
     mark1= 6; 
-    $('#points1').text(mark1);
+    $('#pointsOne').text(mark1);
 
     total=mark1;
     $('#totalMark').text(total);
 
-    $("#rowOne").removeClass('active');
- 
-        $(".m2").addClass('active');
+    $(".mTwo").toggleClass('active');
    
     
     }));
 
-if($('.m3').on('click', function() {
+if($('.mThree').on('click', function() {
     mark1= 3; 
-    $('#points1').text(mark1);
+    $('#pointsOne').text(mark1);
 
     total=mark1;
     $('#totalMark').text(total);
 
-    $("#rowOne").removeClass('active');
+    
  
-        $(".m3").addClass('active');
+        $(".mThree").toggleClass('active');
        
     
     
 
     }));
 
- if($('.m4').on('click', function() {
+ if($('.mFour').on('click', function() {
     mark1= 0; 
-   $('#points1').text(mark1);
+   $('#pointsOne').text(mark1);
 
    total=mark1;
     $('#totalMark').text(total);
 
     
-    $("#rowOne").removeClass('active');
+    
  
-    $("m4").addClass('active');
+    $(".mFour").toggleClass('active');
     
     }));
 
 
-if($('.c1').on('click', function() {
+if($('.cOne').on('click', function() {
     mark2= 10;
-    $('#points2').text(mark2);
+    $('#pointsTwo').text(mark2);
 
     total=mark1 + mark2;
     $('#totalMark').text(total);
+
+
+    
+ 
+    $(".cOne").toggleClass('active');
     }));
 
-if( $('.c2').on('click', function() {
+if( $('.cTwo').on('click', function() {
     mark2= 6; 
-    $('#points2').text(mark2);
+    $('#pointsTwo').text(mark2);
 
     total=mark1 + mark2;
     $('#totalMark').text(total);
+
+
+   
+ 
+    $(".cTwo").toggleClass('active');
     }));
 
-if($('.c3').on('click', function() {
+if($('.cThree').on('click', function() {
     mark2= 3; 
-    $('#points2').text(mark2);
+    $('#pointsTwo').text(mark2);
 
     total=mark1 + mark2;
     $('#totalMark').text(total);
+
+
+    
+ 
+    $(".cThree").toggleClass('active');
     }));
 
-if($('.c4').on('click', function() {
+if($('.cFour').on('click', function() {
     mark2= 0; 
-    $('#points2').text(mark2);
+    $('#pointsTwo').text(mark2);
 
     total=mark1 + mark2;
     $('#totalMark').text(total);
+
+
+   
+ 
+    $(".cFour").toggleClass('active');
     }));
 
 
-if($('.s1').on('click', function() {
+if($('.sOne').on('click', function() {
     mark3= 10;
-    $('#points3').text(mark3);
+    $('#pointsThree').text(mark3);
 
 
     total=mark1 + mark2 + mark3;
     $('#totalMark').text(total);
+
+
+    
+ 
+    $(".sOne").toggleClass('active');
     }));
 
-if( $('.s2').on('click', function() {
+if( $('.sTwo').on('click', function() {
     mark3= 6; 
-    $('#points3').text(mark3);
+    $('#pointsThree').text(mark3);
 
     total=mark1 + mark2 + mark3;
     $('#totalMark').text(total);
+
+
+   
+ 
+    $(".sTwo").toggleClass('active');
     }));
     
-if($('.s3').on('click', function() {
+if($('.sThree').on('click', function() {
     mark3= 3; 
-    $('#points3').text(mark3);
+    $('#pointsThree').text(mark3);
 
     total=mark1 + mark2 + mark3;
     $('#totalMark').text(total);
+
+
+ 
+ 
+    $(".sThree").toggleClass('active');
     }));
     
-if($('.s4').on('click', function() {
+if($('.sFour').on('click', function() {
     mark3= 0; 
-    $('#points3').text(mark3);
+    $('#pointsThree').text(mark3);
 
     total=mark1 + mark2 + mark3;
     $('#totalMark').text(total);
+
+
+    
+    $(".sFour").toggleClass('active');
     }));
 
-if($('.r1').on('click', function() {
+if($('.rOne').on('click', function() {
     mark4= 10;
-    $('#points4').text(mark4);
+    $('#pointsFour').text(mark4);
 
     total=mark1 + mark2 + mark3 +mark4;
     $('#totalMark').text(total);
+
+
+    
+    $(".rOne").toggleClass('active');
     }));
         
-if( $('.r2').on('click', function() {
+if( $('.rTwo').on('click', function() {
     mark4= 6; 
-    $('#points4').text(mark4);
+    $('#pointsFour').text(mark4);
 
     total=mark1 + mark2 + mark3 +mark4;
     $('#totalMark').text(total);
+
+
+    
+    $(".rTwo").toggleClass('active');
     }));
 
-if($('.r3').on('click', function() {
+if($('.rThree').on('click', function() {
     mark4= 3; 
-    $('#points4').text(mark4);
+    $('#pointsFour').text(mark4);
 
     total=mark1 + mark2 + mark3 +mark4;
     $('#totalMark').text(total);
+
+
+    
+    $(".rThree").toggleClass('active');
     }));
 
-if($('.r4').on('click', function() {
+if($('.rFour').on('click', function() {
     mark4= 0; 
-    $('#points4').text(mark4);
+    $('#pointsFour').text(mark4);
 
     total=mark1 + mark2 + mark3 +mark4;
     $('#totalMark').text(total);
+
+
+    
+ 
+    $(".rFour").toggleClass('active');
     }));
 
 
-if($('.t1').on('click', function() {
+if($('.tOne').on('click', function() {
     mark5= 10;
-    $('#points5').text(mark5);
+    $('#pointsFive').text(mark5);
 
 
     total=mark1 + mark2 + mark3 +mark4 +mark5;
     $('#totalMark').text(total);
+
+
+
+ 
+    $(".tOne").toggleClass('active');
     }));
             
-if( $('.t2').on('click', function() {
+if( $('.tTwo').on('click', function() {
     mark5= 6; 
-    $('#points5').text(mark5);
+    $('#pointsFive').text(mark5);
 
 
     total=mark1 + mark2 + mark3 +mark4 +mark5;
     $('#totalMark').text(total);
+
+
+    
+    $(".tTwo").toggleClass('active');
     }));
             
-if($('.t3').on('click', function() {
+if($('.tThree').on('click', function() {
     mark5= 3; 
-    $('#points5').text(mark5);
+    $('#pointsFive').text(mark5);
 
     total=mark1 + mark2 + mark3 +mark4 +mark5;
     $('#totalMark').text(total);
+
+
+    
+    $(".tThree").toggleClass('active');
     }));
             
-if($('.t4').on('click', function() {
+if($('.tFour').on('click', function() {
     mark5= 0; 
-    $('#points5').text(mark5);
+    $('#pointsFive').text(mark5);
 
     total=mark1 + mark2 + mark3 +mark4 +mark5;
     $('#totalMark').text(total);
+
+    $(".tFour").toggleClass('active');
+    
     }));
 
-    
-    
 
                
         
