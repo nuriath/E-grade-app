@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/questions.css" type="text/css" rel="stylesheet">
+    <title>Questions</title>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html">Go back</a>
+
+      <div class="jumbotron">
+         <h1>Questions</h1><br>
+         <h2>Instructions:</h2>
+         <p> Every contestent must pick one question randomly</p>
+         <p> What You need?</p>
+         <ol>
+             <strong><li><strong>Click on Refresh button</strong></li></strong>
+             <strong><li><strong>Read a question two time and try to understand it.</strong> </li></strong>
+             <strong><li><strong>Fill your answer in input frame</strong></li></strong>
+             <strong><li><strong>Click on Submit button</strong><span> (you will see if your answer is correct or is incorrect)<span></li></strong>
+             <strong><li><strong>Click on Next button</strong></li></strong>
+         </ol> 
+         
+      </div>
+         <p id="question"><strong>Q:</strong> <text id="name"></text>?</p>
+         <input type="text" id="input" size="30"><button onclick="submit()" class="button">Submit</button>
+         <p id="answer"></p>
+         <p id="button"></p>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    ,<script src="js/question.js"></script>
+</body>
+</html>

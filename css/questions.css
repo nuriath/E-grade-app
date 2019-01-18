@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(161, 151, 93);
+    font-family: 'Tangerine', serif;
+
+}
+jambotron{
+    color: wheat;
+}
+
+ol{
+    font-size: 20px;
+}
+#question{
+    font-size: 20px;
+}
+.button {
+    background-color: wheat;
+    border: none;
+    color:rgb(161, 151, 93);;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+ a{
+     font-size:20px;
+ }
