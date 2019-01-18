@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+    font-family: 'Tangerine', serif;
+    font-size:20px;
+}
+.second{
+     display:flex;
+     margin-left: 1%;
+     margin-inline-end: 4%;
+}
+.first{
+    display:flex;
+    margin-left: 1%;
+}
+.third{
+    display:flex;
+    margin-left: 1%;
+}
+.uwera{
+    padding-inline-end: 2%;
+}
+}
+

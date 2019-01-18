@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Electronic Grade Application</title>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/register.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <a href="index.html">Back home</a>
+    <div class="container">
+        <div class="main">
+        <form class="form" method="post" action="#">
+        <h2>Miss Registration Form </h2>
+        <label>Name :</label>
+        <input type="text" name="dname" id="name">
+        <label>Email :</label>
+        <input type="text" name="demail" id="email">
+        <label>Password :</label>
+        <input type="password" name="password" id="password">
+        <label>Confirm Password :</label>
+        <input type="password" name="cpassword" id="cpassword">
+        <lable>Age:</lable>
+        <input type="number" name ="age" id="age">
+        <label >Height</label>
+        <input type="height" name="height" id="height">
+        <label>Weight</label>
+        <input type="weight" name="weight" id="weight">
+        <label >Language spoken :</label>
+        <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" name="language">Kinyarwanda</a>
+                  <a class="dropdown-item" name="language">English</a>
+                  <a class="dropdown-item" name="language">French</a>
+                  <a class="dropdown-item" name="language">Other</a>
+                </div>
+               </div>
+        <label>Diploma :</label>
+        <input type="diploma" name="diploma" id="diploma">
+        <input type="button" name="register" id="register" value="Register">
+        </form>
+        </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/judge1.js"></script>
+</body>
+</html>

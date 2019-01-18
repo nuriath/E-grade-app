@@ -1,3 +1,24 @@
 body{
+<<<<<<< HEAD
     background-color: blue;
 }
+=======
+    background-color: rgb(247, 233, 217);
+    font-style: 'Tangerine', serif;
+    font-size: 20px;
+ }  
+ 
+ h1{
+    box-shadow: 4px 4px 3px grey;
+    text-align: center;
+ }
+ .first{
+    float: left;
+    padding-right:6%;
+ 
+ }
+ 
+ h2,h1{
+    color: rgb(153, 78, 8);
+ }
+>>>>>>> 5d5d736699ec94118e64d47d9d994a5c9325a33a
